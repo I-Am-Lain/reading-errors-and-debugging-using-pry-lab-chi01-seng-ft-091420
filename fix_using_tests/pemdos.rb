@@ -2,8 +2,8 @@
 
 def snake_it_up(string)
   if string[0] == "s"
-    return "s" * 10 + string
+    "s" * 10 + string
   else
-    return string
+    string
   end
 end
